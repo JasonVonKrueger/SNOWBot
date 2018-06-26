@@ -1,0 +1,38 @@
+{
+    "$schema": "https://statics.teams.microsoft.com/sdk/v1.0/manifest/MicrosoftTeams.schema.json", 
+    "manifestVersion": "1.0",
+    "version": "1.0.0",
+    "id": "441aaa97-2f92-4ac9-ba48-3d6fb7aa7cdc",
+    "packageName": "edu.clayton.apps.snowbot",
+    "developer": {
+        "name": "Roger Poore",
+        "websiteUrl": "https://www.microsoft.com",
+        "privacyUrl": "https://www.microsoft.com/privacy",
+        "termsOfUseUrl": "https://www.microsoft.com/termsofuse"
+    },
+    "name": {
+        "short": "SnowBot"
+    },
+    "description": {
+        "short": "SnowBot manifest.",
+        "full": "SnowBot manifest."
+    },
+    "icons": {
+        "outline": "SnowBot20x20.png",
+        "color": "SnowBot96x96.png"
+    },
+    "accentColor": "#60A18E",
+    "bots": [
+        {
+            "botId": "441aaa97-2f92-4ac9-ba48-3d6fb7aa7cdc",
+            "scopes": [
+                "team",
+                "personal"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ]
+}

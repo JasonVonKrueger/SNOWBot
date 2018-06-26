@@ -1,0 +1,6 @@
+# ignore authentication config
+auth.js
+
+# ignore other stuff
+index-2.js
+node_modules

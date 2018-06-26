@@ -1,0 +1,22 @@
+{
+  "name": "snowbot",
+  "version": "1.0.0",
+  "description": "Bot for querying ServiceNow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roger Poore",
+  "license": "ISC",
+  "dependencies": {
+    "adldap": "^3.1.2",
+    "bluebird": "^3.5.0",
+    "botbuilder": "^3.8.4",
+    "fs": "0.0.1-security",
+    "moment": "^2.18.1",
+    "promise": "^7.1.1",
+    "request-promise": "^4.2.1",
+    "restify": "^4.3.1",
+    "sort-json-array": "^0.1.7"
+  }
+}
