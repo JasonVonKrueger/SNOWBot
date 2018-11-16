@@ -34,7 +34,7 @@ function querySNOW(queryType, queryTerm, callback) {
     }
 
     var options = {
-        uri: 'https://clayton.service-now.com/api/now/table/' + table,
+        uri: 'https://<instance>.service-now.com/api/now/table/' + table,
         qs: {
             sysparm_query: queryParam,
             sysparm_fields: returnFields,
@@ -75,8 +75,8 @@ function getADInfo(username, callback) {
         searchUser: auth.user.username,
         searchUserPass: auth.user.password,
         ldapjs: {
-            url: 'ldaps://ldap.clayton.edu',
-            searchBase: 'dc=ccsunet,dc=clayton,dc=edu',
+            url: 'ldaps://ldap.domain',
+            searchBase: 'dc=some,dc=domain,dc=com',
             scope: 'sub',
             attributes: ['dn', 'cn', 'sn', 'givenName', 'mail', 'memberOf', 'telephoneNumber', 'csuAccountFlagged', 'csuAccountFlaggedReason','displayName']
         }
